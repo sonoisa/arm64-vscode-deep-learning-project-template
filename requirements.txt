@@ -1,0 +1,3 @@
+matplotlib
+jupyterlab
+# floyd-cli
