@@ -21,4 +21,5 @@ A Deep Learning VSCode Remote-Container project template with PyTorch and Tensor
 
 1. Visual Studio Codeの左下にある"><"のようなアイコンをクリックする。
 2. Remote-Containers: Open Folder in Container...をクリックする。
-3. 3で解凍したフォルダを選択する。
+3. 3で解凍したフォルダを選択する。dockerイメージのビルドの完了を待つ。
+4. dockerコンテナの起動後に、利用するpythonを選択せよという警告が表示されたら"~/python3-venv/bin/python"を選択する。
