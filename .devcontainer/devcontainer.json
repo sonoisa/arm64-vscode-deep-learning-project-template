@@ -1,5 +1,5 @@
 {
-	"name": "PT1.6 TF2.3",
+	"name": "PT1.9 TF2.6",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": "..",
@@ -8,18 +8,21 @@
 	},
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
-		"python.pythonPath": "/usr/local/bin/python",
+		"python.pythonPath": "/home/ubuntu/python3-venv/bin/python",
 		"python.linting.enabled": true,
 		"python.linting.pylintEnabled": true,
-		"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
-		"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
-		"python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
-		"python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
-		"python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
-		"python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
-		"python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
-		"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
-		"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint"
+		"python.linting.pylintArgs": [
+			"--generated-members=numpy.* ,torch.*"
+		],
+		"python.formatting.autopep8Path": "/home/ubuntu/python3-venv/bin/autopep8",
+		"python.formatting.blackPath": "/home/ubuntu/python3-venv/bin/black",
+		"python.formatting.yapfPath": "/home/ubuntu/python3-venv/bin/yapf",
+		"python.linting.banditPath": "/home/ubuntu/python3-venv/bin/bandit",
+		"python.linting.flake8Path": "/home/ubuntu/python3-venv/bin/flake8",
+		"python.linting.mypyPath": "/home/ubuntu/python3-venv/bin/mypy",
+		"python.linting.pycodestylePath": "/home/ubuntu/python3-venv/bin/pycodestyle",
+		"python.linting.pydocstylePath": "/home/ubuntu/python3-venv/bin/pydocstyle",
+		"python.linting.pylintPath": "/home/ubuntu/python3-venv/bin/pylint"
 	},
 	"extensions": [
 		"ms-python.python"
