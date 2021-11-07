@@ -7,7 +7,7 @@
 		}
 	},
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash",
+		"terminal.integrated.profile.linux": "/bin/bash",
 		"python.pythonPath": "/home/ubuntu/python3-venv/bin/python",
 		"python.linting.enabled": true,
 		"python.linting.pylintEnabled": true,
