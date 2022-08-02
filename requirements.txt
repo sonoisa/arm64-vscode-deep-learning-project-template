@@ -8,4 +8,4 @@ bandit
 flake8
 mypy
 pycodestyle
-typing-extensions==3.7.4.3  # for tensorflow 2.6.0
+typing-extensions

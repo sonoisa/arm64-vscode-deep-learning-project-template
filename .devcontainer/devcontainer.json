@@ -1,5 +1,5 @@
 {
-	"name": "PT1.9 TF2.6",
+	"name": "PT1.12 TF2.9",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": "..",

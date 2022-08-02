@@ -1,4 +1,4 @@
-FROM sonoisa/deep-learning-coding:pytorch1.9.0_tensorflow2.6.0
+FROM sonoisa/deep-learning-coding:pytorch1.12.0_tensorflow2.9.1
 
 WORKDIR /home/$DOCKER_USER
 USER $DOCKER_USER
