@@ -4,6 +4,7 @@
 		"dockerfile": "Dockerfile",
 		"context": "..",
 		"args": { 
+			"DOCKER_USER": "ubuntu"
 		}
 	},
 	"settings": { 
